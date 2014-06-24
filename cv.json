@@ -1,0 +1,52 @@
+{
+	"name":"Teemu Heikkilä",
+	"years":[
+		{
+			"year":1994,
+			"events":[
+				{"name":"I was born", "type":"normal"}
+			]
+		},
+		{
+			"year":1999,
+			"events":[
+				{"order":0, "name":"Getting interested in Computers and programming", "type":"normal"},
+			]
+		},
+		{
+			"year":2008,
+			"events":[
+				{"order":0, "name":"Photography", "underline":"Started as photographer", "description":"I've been photographer in Partio-magazine since 2008", "type":"normal"}
+			]
+		},
+		{
+			"year":2009,
+			"events":[
+				{"order":0, "name":"3D modeling", "underline":"Subtle Confusion by Pistoke", "description":"Our team, pistoke won 3rd. place in short film combo @ Assembly Summer 09", "type":"normal"}
+			]
+		},
+		{
+			"year":2010,
+			"events":[
+				{"order":0, "name":"3D modeling", "underline":"What is Love by Pistoke", "description":"Pistoke won 2nd. place in short film combo @ Assembly Summer 10", "type":"normal"}
+				{"order":1, "name":"Went to Järvenpään Lukio", "type":"normal"}
+			]
+		},
+		{
+			"year":2013,
+			"events":[
+				{"order":0, "name":"Graduated from Järvenpään Lukio"},
+				{"order":1, "name":"University of Helsinki", "underline":"Department of Computer Science", "description":"I was accepted to the University of Helsinki"}
+				{"order":2, "name":"Army", "underline":"Sergeant", "description":"I served in Guard Jaeger Regiment at Santahamina and I was trained to platoon vice leader", "type":"army"}
+			]
+		},
+	],
+	"skills":[
+		{"name":"frameworks and stuff", "description":"I can handle these very well", "list":["Django", "Node.js", "Angular", "Backbone.js", "underscore/lodash", "HTML5+CSS3", "jasmine", "LESS", "docker"]},
+		{"name":"databases", "description":"I can handle these too", "list":["MySQL", "MongoDB", "Redis", "SQLite"]},
+		{"name":"utilities", "list":["Photoshop", "Git", "SVN"]}
+	],
+	"references":[
+		{"name":"Lanttu ry's website", "img":"", "url":"http://lanttu.org"}
+	]
+}
