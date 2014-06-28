@@ -1,0 +1,258 @@
+/*
+cv.css
+Author: Teemu Heikkilä <teemu.heikkila@pistoke.org>
+Homepage: http://c5.fi
+*/
+
+
+/*
+Colors
+*/
+
+
+
+@pudding: #C05281;
+@navy: #44538E;
+@vanilla: #F1E0A8;
+@orange2: #D4744A;
+@blueish: #00a3d8;
+/*@orange: #a5bdb2;*/
+@orange: @blueish;
+@whitey: #F5F3F4;
+
+@border: #d8d8d8;
+
+
+@shadow: @border;
+@shadow-spread: -1px;
+@shadow-size: 10px;
+
+html{
+	height: 100%;
+}
+body{
+	background-color: @whitey;
+	padding: 0;
+	font-family: "Open Sans","Helvetica Neue";
+	line-height: 1;
+	height: 100%;
+	margin-top: -6px;
+}
+
+
+h1,h2{
+	font-family: 'Oswald', sans-serif;
+}
+h2{
+	font-size: 1.75rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: .35714rem 0 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-rendering: optimizeLegibility;
+	font-style: normal;
+	color: #222;
+}
+
+.cv-borders{
+	/*
+	border-bottom: 1px solid @border;
+	border-right: 1px solid @border;
+	*/
+	overflow: hidden;
+	min-height: 100%;
+}
+
+label {
+	display: block;
+	margin-bottom: .3125rem;
+	cursor: pointer;
+	font-size: .8125rem;
+	font-weight: 300;
+	color: #4d4d4d;
+}
+
+a {
+	color: #08c;
+	line-height: inherit;
+	text-decoration: none;
+}
+
+.row{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.row > div{
+
+}
+
+.col-1{
+	flex-grow: 1;
+}
+
+
+.col-2{
+	flex-grow: 2;
+}
+
+
+.col-3{
+	flex-grow: 3;
+}
+.col-4{
+	flex-grow: 4;
+}
+.col-5{
+	flex-grow: 5;
+}
+.col-6{
+	flex-grow: 6;
+}
+.col-7{
+	flex-grow: 7;
+}
+.col-8{
+	flex-grow: 8;
+	min-width: 100%;
+}
+.col-9{
+	flex-grow: 9;
+}
+.col-10{
+	flex-grow: 10;
+}
+.col-11{
+	flex-grow: 11;
+}
+.col-12{
+	flex-grow: 12;
+}
+
+
+.cv-padding{
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cv-wrap{
+	border-bottom: 1px solid @border;
+	border-right: 1px solid @border;
+	border-left: 1px solid @border;
+	-moz-box-shadow: @shadow-spread @shadow-spread @shadow-size @shadow;
+	-webkit-box-shadow: @shadow-spread @shadow-spread @shadow-size @shadow;
+	box-shadow: @shadow-spread @shadow-spread @shadow-size @shadow;
+	padding: 5px;
+	height: 100%;
+}
+
+.cv-navy h1{
+	color: @orange;
+}
+small{
+	color: @whitey;
+	background-color: @orange;
+	padding: 2px;
+	font-weight: normal;
+  	line-height: inherit;
+  	font-size: 60%;
+}
+
+#map{
+	background-size: cover;
+	background-image: url(../img/map.jpg);
+	background-position: center;
+}
+#partio{
+	background-size: cover;
+	background-image: url(../img/partio_mantyniemi.jpg);
+	background-position: center;
+}
+#whatislove{
+	background-size: cover;
+	background-image: url(../img/whatislove.jpg);
+	background-position: center;
+}
+#subtle{
+	background-size: cover;
+	background-image: url(../img/subtle.jpg);
+	background-position: center;
+}
+#kaartjr{
+	background-size: cover;
+	background-image: url(../img/kaartjr.jpg);
+	background-position: center;
+}
+#koulu{
+	background-size: cover;
+	background-image: url(../img/koulu.jpg);
+	background-position: center;
+}
+
+#ika{
+	background-size: cover;
+	background-image: url(../img/ika.jpg);
+
+}
+
+.cv-animate{
+	opacity: 0;
+}
+
+.first{
+
+}
+
+#mega {
+	width: 100%;
+	background-color: @orange;
+	z-index: 10;
+	position: relative;
+	min-height: 100%;
+	text-align: center;
+}
+#footer{
+	width: 100%;
+	background-color: @orange;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.footer-content h1{
+	text-align: center;
+}
+.footer-content{
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	color: @whitey;
+	font-weight: lighter;
+}
+.footer-content address{
+	border-left: 1px solid @whitey;
+	padding: 5px;
+	font-style: normal;
+	font-weight: 300;
+}
+.footer-content address strong{
+	font-weight: 400;
+}
+#mega img{
+	width: 100px;
+	margin-top: 10%;
+}
+#megatitle{
+color: @whitey;
+}
+.whitey{
+	color: @whitey;
+}
+#meganame{
+	color: @whitey;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
