@@ -1,6 +1,6 @@
 
 (function(){
-
+// http://www.dustindiaz.com/getelementsbyclass
 function getElementsByClass(searchClass,node,tag) {
 	var classElements = new Array();
 	if ( node == null )
